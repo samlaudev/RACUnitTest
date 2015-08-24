@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Classy (0.2.4)
+  - ClassyLiveLayout (0.6.0):
+    - Classy
+    - Masonry
+  - Kiwi (2.3.1)
+  - Mantle (1.5.4):
+    - Mantle/extobjc (= 1.5.4)
+  - Mantle/extobjc (1.5.4)
+  - Masonry (0.6.2)
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - ReactiveViewModel (0.3):
+    - ReactiveCocoa (~> 2.4)
+  - TPKeyboardAvoiding (1.2.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.1)
+  - Classy (~> 0.2.4)
+  - ClassyLiveLayout (~> 0.6.0)
+  - Kiwi (~> 2.3.1)
+  - Mantle (~> 1.5.4)
+  - Masonry (~> 0.6.1)
+  - ReactiveCocoa (~> 2.4.4)
+  - ReactiveViewModel (~> 0.3)
+  - TPKeyboardAvoiding (~> 1.2.6)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Classy: 8d39a27d36865856c8cf21cba5d58fa9252037d9
+  ClassyLiveLayout: a28f6cc404ce8f2f36bf98b628b6c85b8667e105
+  Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
+  Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
+  ReactiveViewModel: 58918dcbcec2d3151195ab1ed9163c57a8163999
+  TPKeyboardAvoiding: f1ef0028fe9ba98ef2871cf55b4bbc39cae0267b
+
+COCOAPODS: 0.37.2
