@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BB2287FB-83DC-45A9-81FF-3715BC50DE46</string>
+	<string>73A3BADF-9854-4B8D-A9FD-09D0E64C3801</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>RACUnitTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>30AA1E7EAE7F7F319E6EC84E94E7473C6056A95F</key>
 		<string>https://github.com/samlaudev/RACUnitTest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RACUnitTest.xcodeproj/project.xcworkspace</string>
+	<string>RACUnitTest.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>30AA1E7EAE7F7F319E6EC84E94E7473C6056A95F</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/samlaudev/RACUnitTest.git</string>
