@@ -12,10 +12,11 @@
 		8F22FC7C1B8A9C1100B5D42C /* stylesheet.cas in Resources */ = {isa = PBXBuildFile; fileRef = 8F22FC7B1B8A9C1100B5D42C /* stylesheet.cas */; };
 		8F79A1851B8A97F800DC7C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A1841B8A97F800DC7C97 /* main.m */; };
 		8F79A1881B8A97F800DC7C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A1871B8A97F800DC7C97 /* AppDelegate.m */; };
-		8F79A18B1B8A97F800DC7C97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A18A1B8A97F800DC7C97 /* ViewController.m */; };
 		8F79A1901B8A97F800DC7C97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F79A18F1B8A97F800DC7C97 /* Images.xcassets */; };
 		8F79A1931B8A97F800DC7C97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F79A1911B8A97F800DC7C97 /* LaunchScreen.xib */; };
 		8F79A19F1B8A97F800DC7C97 /* RACUnitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A19E1B8A97F800DC7C97 /* RACUnitTestTests.m */; };
+		C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76585023CA264A1F92CD4 /* LoginView.m */; };
+		C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769403E0FAAB4D8679122 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +38,16 @@
 		8F79A1841B8A97F800DC7C97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F79A1861B8A97F800DC7C97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F79A1871B8A97F800DC7C97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F79A1891B8A97F800DC7C97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F79A18A1B8A97F800DC7C97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F79A18F1B8A97F800DC7C97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F79A1921B8A97F800DC7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8F79A1981B8A97F800DC7C97 /* RACUnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACUnitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F79A19D1B8A97F800DC7C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F79A19E1B8A97F800DC7C97 /* RACUnitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACUnitTestTests.m; sourceTree = "<group>"; };
 		AD5BE772162E64C2E334E1A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C762D63131353391BEE909 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C9C76585023CA264A1F92CD4 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		C9C768BA2E024DB54F57D382 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		C9C769403E0FAAB4D8679122 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D55DB9E2C6FAD16444E59CE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,12 +96,11 @@
 			children = (
 				8F79A1861B8A97F800DC7C97 /* AppDelegate.h */,
 				8F79A1871B8A97F800DC7C97 /* AppDelegate.m */,
-				8F79A1891B8A97F800DC7C97 /* ViewController.h */,
-				8F79A18A1B8A97F800DC7C97 /* ViewController.m */,
 				8F22FC7B1B8A9C1100B5D42C /* stylesheet.cas */,
 				8F79A18F1B8A97F800DC7C97 /* Images.xcassets */,
 				8F79A1911B8A97F800DC7C97 /* LaunchScreen.xib */,
 				8F79A1821B8A97F800DC7C97 /* Supporting Files */,
+				C9C76D410E1EF3A70675D01E /* Login */,
 			);
 			path = RACUnitTest;
 			sourceTree = "<group>";
@@ -145,6 +147,17 @@
 				D55DB9E2C6FAD16444E59CE7 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9C76D410E1EF3A70675D01E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C9C769403E0FAAB4D8679122 /* LoginViewController.m */,
+				C9C762D63131353391BEE909 /* LoginViewController.h */,
+				C9C768BA2E024DB54F57D382 /* LoginView.h */,
+				C9C76585023CA264A1F92CD4 /* LoginView.m */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F79A18B1B8A97F800DC7C97 /* ViewController.m in Sources */,
 				8F79A1881B8A97F800DC7C97 /* AppDelegate.m in Sources */,
 				8F79A1851B8A97F800DC7C97 /* main.m in Sources */,
+				C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */,
+				C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +421,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -419,6 +434,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};
