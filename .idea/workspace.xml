@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7993be83-196a-4bb2-acb7-8fb740e74b56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTest-Kiwi.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTest.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest-Kiwi/Pods-RACUnitTest-Kiwi-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest-Kiwi/Pods-RACUnitTest-Kiwi-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest-Kiwi/Pods-RACUnitTest-Kiwi-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest-Kiwi/Pods-RACUnitTest-Kiwi.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest/Pods-RACUnitTest-acknowledgements.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest/Pods-RACUnitTest-acknowledgements.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest/Pods-RACUnitTest-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest/Pods-RACUnitTest-environment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest/Pods-RACUnitTest-resources.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest/Pods-RACUnitTest.debug.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTest/Pods-RACUnitTest.release.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RACUnitTestTests/RACUnitTestTests.m" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTestTests/Business/DataValidationSpec.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest.xcworkspace/xcuserdata/samlau.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/RACUnitTest.xcworkspace/xcuserdata/samlau.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.h" afterPath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m" afterPath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Classy.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Classy.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ClassyLiveLayout.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ClassyLiveLayout.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Mantle.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Mantle.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Masonry.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Masonry.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveCocoa.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveCocoa.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveViewModel.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveViewModel.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-TPKeyboardAvoiding.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-TPKeyboardAvoiding.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest.xcworkspace/xcuserdata/samlau.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/RACUnitTest.xcworkspace/xcuserdata/samlau.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/RACUnitTest.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/xcschememanagement.plist" />
     </list>
     <ignored path="RACUnitTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,19 +43,41 @@
       <file leaf-file-name="LoginViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1065">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1065">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginViewControllerSpec.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataValidation.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataValidation.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6152758" vertical-offset="0" max-vertical-offset="707">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginViewControllerSpec.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28067702" vertical-offset="86" max-vertical-offset="810">
+            <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="810">
               <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding />
+              <folding>
+                <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +131,8 @@
         <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m" />
         <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.h" />
         <option value="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m" />
+        <option value="$PROJECT_DIR$/RACUnitTest/Business/DataValidation.h" />
+        <option value="$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m" />
       </list>
     </option>
   </component>
@@ -181,18 +178,8 @@
               <option name="myItemId" value="RACUnitTest" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RACUnitTest" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RACUnitTest" />
+              <option name="myItemId" value="RACUnitTestTests" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,9 +196,15 @@
               <option name="myItemId" value="RACUnitTest" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Login" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RACUnitTest" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -222,6 +215,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Pods" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -416,7 +427,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -458,7 +471,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -526,14 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1065">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
@@ -544,8 +551,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28067702" vertical-offset="86" max-vertical-offset="810">
+        <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="810">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1065">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6152758" vertical-offset="0" max-vertical-offset="707">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
