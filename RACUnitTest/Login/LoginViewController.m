@@ -6,14 +6,21 @@
 //  Copyright (c) 2015 Sam Lau. All rights reserved.
 //
 
+#import <ReactiveCocoa.h>
+
 #import "LoginViewController.h"
 #import "LoginView.h"
 #import "MASConstraintMaker.h"
 #import "View+MASAdditions.h"
+#import "LoginViewModel.h"
 
 @interface LoginViewController ()
 
+#pragma mark - UI properties
 @property (strong, nonatomic) LoginView *rootView;
+
+#pragma mark - View model
+@property (strong, nonatomic) LoginViewModel *loginViewModel;
 
 @end
 
@@ -24,18 +31,40 @@
     [super viewDidLoad];
 
     // build view hierarchy
+    [self buildViewHierarchy];
+    // bind data
+    [self bindData];
+}
+
+- (void)buildViewHierarchy
+{
     [self.view addSubview:self.rootView];
     [self.rootView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
 }
 
+- (void)bindData
+{
+    RAC(self.loginViewModel, username) = self.rootView.usernameTextField.rac_textSignal;
+    RAC(self.loginViewModel, password) = self.rootView.passwordTextField.rac_textSignal;
+}
+
+#pragma mark - Custom Accessors
 - (LoginView *)rootView
 {
     if (!_rootView) {
         _rootView = [LoginView new];
     }
     return _rootView;
+}
+
+- (LoginViewModel *)loginViewModel
+{
+    if (!_loginViewModel) {
+        _loginViewModel = [LoginViewModel new];
+    }
+    return _loginViewModel;
 }
 
 

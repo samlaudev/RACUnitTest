@@ -29,12 +29,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RACUnitTest-Kiwi.xcscheme</key>
+		<key>Pods-RACUnitTestTests-Kiwi.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RACUnitTest.xcscheme</key>
+		<key>Pods-RACUnitTestTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -62,57 +62,57 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0DA14909436D9B7478FD6AFA</key>
+		<key>38A43C881EEF824176DFD624</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>230E4BA934917D0481597649</key>
+		<key>4237143A172F359F66D70DF1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>33C274C1F0DF7B0F5AEFB878</key>
+		<key>442D7B7F44E4441429E2FDE5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8152A3EECB84EB2F04154A90</key>
+		<key>738E567999C32BD7F8E032E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>879D558FC9CFB9341B05975F</key>
+		<key>799C05CF82100A0CD83356D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B73183361CB555EBACE7D98</key>
+		<key>8043C09DA2F87A36DFC655DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8FAFCD6E6D8621FC7247C81D</key>
+		<key>8A0498D95B45C85F6831EF2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C625D89F4C44448EEA7F97C5</key>
+		<key>8CE3FA3A92DB099A24B0745A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB030EE1F03DA3B608EAA929</key>
+		<key>97A629A8F2C4A3D40DFC94BF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DE94F10AC05298E496D0F80A</key>
+		<key>A8E4598EAA306E966950AB12</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3421443B737BFE361F3C768</key>
+		<key>EF8E7B743E12D745F9E202F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

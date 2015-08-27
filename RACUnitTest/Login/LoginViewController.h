@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class LoginView;
+@class LoginViewModel;
+
 @interface LoginViewController : UIViewController
 
+@property (strong, nonatomic, readonly) LoginView *rootView;
+@property (strong, nonatomic, readonly) LoginViewModel *loginViewModel;
 
 @end
 
