@@ -17,8 +17,15 @@
 		8F9A6DCE1B9331A200FE3BBA /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A6DCD1B9331A200FE3BBA /* UIImage+Helper.m */; };
 		8F9AD52B1B8BF3AD00D2D784 /* LoginViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AD52A1B8BF3AD00D2D784 /* LoginViewControllerSpec.m */; };
 		8F9AD52D1B8E93E900D2D784 /* DataValidationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AD52C1B8E93E900D2D784 /* DataValidationSpec.m */; };
+		8FDB501D1B934ACB0075D40C /* LoginViewModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB501C1B934ACB0075D40C /* LoginViewModelSpec.m */; };
+		8FDB50251B93537C0075D40C /* settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB50221B93537C0075D40C /* settings.json */; };
+		8FDB50291B9353A20075D40C /* login_conf.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB50271B9353A20075D40C /* login_conf.json */; };
+		8FDB502A1B9353A20075D40C /* login_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB50281B9353A20075D40C /* login_response.json */; };
+		8FDB502D1B9357B20075D40C /* URLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB502C1B9357B20075D40C /* URLHelper.m */; };
+		8FDB502F1B93593C0075D40C /* LoginClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB502E1B93593C0075D40C /* LoginClientSpec.m */; };
 		C9C767C9FB8B09CFC5E5C286 /* DataValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761B770541799767740CD /* DataValidation.m */; };
 		C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76585023CA264A1F92CD4 /* LoginView.m */; };
+		C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761AA3ABAAB32B24A6336 /* LoginClient.m */; };
 		C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769403E0FAAB4D8679122 /* LoginViewController.m */; };
 		C9C76EE21CBCD14DAA2E6FE2 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C7618C559D212C8D13233F /* LoginViewModel.m */; };
 		E3D33710712C06DA1B06F08A /* libPods-RACUnitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F960278C606744E7420338 /* libPods-RACUnitTestTests.a */; };
@@ -54,12 +61,21 @@
 		8F9A6DCF1B93322E00FE3BBA /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
 		8F9AD52A1B8BF3AD00D2D784 /* LoginViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerSpec.m; sourceTree = "<group>"; };
 		8F9AD52C1B8E93E900D2D784 /* DataValidationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataValidationSpec.m; sourceTree = "<group>"; };
+		8FDB501C1B934ACB0075D40C /* LoginViewModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModelSpec.m; sourceTree = "<group>"; };
+		8FDB50221B93537C0075D40C /* settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = settings.json; sourceTree = "<group>"; };
+		8FDB50271B9353A20075D40C /* login_conf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login_conf.json; sourceTree = "<group>"; };
+		8FDB50281B9353A20075D40C /* login_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login_response.json; sourceTree = "<group>"; };
+		8FDB502B1B9357B20075D40C /* URLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
+		8FDB502C1B9357B20075D40C /* URLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelper.m; sourceTree = "<group>"; };
+		8FDB502E1B93593C0075D40C /* LoginClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginClientSpec.m; sourceTree = "<group>"; };
 		AD5BE772162E64C2E334E1A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C7618C559D212C8D13233F /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		C9C761AA3ABAAB32B24A6336 /* LoginClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginClient.m; sourceTree = "<group>"; };
 		C9C761B770541799767740CD /* DataValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataValidation.m; sourceTree = "<group>"; };
 		C9C762D63131353391BEE909 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		C9C76378F408ABB489E48BE4 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
 		C9C7647F95E9196C6A3BB96E /* DataValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataValidation.h; sourceTree = "<group>"; };
+		C9C764F2DF09A7B029657165 /* LoginClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginClient.h; sourceTree = "<group>"; };
 		C9C76585023CA264A1F92CD4 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		C9C768BA2E024DB54F57D382 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		C9C769403E0FAAB4D8679122 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -111,16 +127,19 @@
 		8F79A1811B8A97F800DC7C97 /* RACUnitTest */ = {
 			isa = PBXGroup;
 			children = (
-				8F9A6DCB1B9331A200FE3BBA /* Category */,
 				8F79A1861B8A97F800DC7C97 /* AppDelegate.h */,
 				8F79A1871B8A97F800DC7C97 /* AppDelegate.m */,
 				8F22FC7B1B8A9C1100B5D42C /* stylesheet.cas */,
 				8F79A18F1B8A97F800DC7C97 /* Images.xcassets */,
 				8F79A1911B8A97F800DC7C97 /* LaunchScreen.xib */,
-				8F79A1821B8A97F800DC7C97 /* Supporting Files */,
+				8FDB501E1B93537C0075D40C /* JSON */,
+				8F9A6DCB1B9331A200FE3BBA /* Category */,
 				C9C76D410E1EF3A70675D01E /* Login */,
 				C9C76A3351BAE0774AA2DC27 /* Business */,
 				C9C765FCEBC9C6BA7D80E932 /* Macro */,
+				C9C76F2B4CED53CF55495154 /* Network */,
+				8F79A1821B8A97F800DC7C97 /* Supporting Files */,
+				C9C761F425AF59637884C7E2 /* Helper */,
 			);
 			path = RACUnitTest;
 			sourceTree = "<group>";
@@ -161,6 +180,24 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		8FDB501E1B93537C0075D40C /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB50261B9353A20075D40C /* Login */,
+				8FDB50221B93537C0075D40C /* settings.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		8FDB50261B9353A20075D40C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB50271B9353A20075D40C /* login_conf.json */,
+				8FDB50281B9353A20075D40C /* login_response.json */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		ACEF69B6167BA949C72BDAB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,10 +219,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C9C761F425AF59637884C7E2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8FDB502B1B9357B20075D40C /* URLHelper.h */,
+				8FDB502C1B9357B20075D40C /* URLHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		C9C76300EA711CD41C4B6ABF /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				8F9AD52A1B8BF3AD00D2D784 /* LoginViewControllerSpec.m */,
+				8FDB501C1B934ACB0075D40C /* LoginViewModelSpec.m */,
+				8FDB502E1B93593C0075D40C /* LoginClientSpec.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -226,6 +274,15 @@
 				C9C7618C559D212C8D13233F /* LoginViewModel.m */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		C9C76F2B4CED53CF55495154 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C9C764F2DF09A7B029657165 /* LoginClient.h */,
+				C9C761AA3ABAAB32B24A6336 /* LoginClient.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,9 +369,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDB50251B93537C0075D40C /* settings.json in Resources */,
 				8F79A1931B8A97F800DC7C97 /* LaunchScreen.xib in Resources */,
 				8F79A1901B8A97F800DC7C97 /* Images.xcassets in Resources */,
+				8FDB502A1B9353A20075D40C /* login_response.json in Resources */,
 				8F22FC7C1B8A9C1100B5D42C /* stylesheet.cas in Resources */,
+				8FDB50291B9353A20075D40C /* login_conf.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +462,8 @@
 				C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */,
 				C9C76EE21CBCD14DAA2E6FE2 /* LoginViewModel.m in Sources */,
 				C9C767C9FB8B09CFC5E5C286 /* DataValidation.m in Sources */,
+				C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */,
+				8FDB502D1B9357B20075D40C /* URLHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +472,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9AD52B1B8BF3AD00D2D784 /* LoginViewControllerSpec.m in Sources */,
+				8FDB501D1B934ACB0075D40C /* LoginViewModelSpec.m in Sources */,
 				8F9AD52D1B8E93E900D2D784 /* DataValidationSpec.m in Sources */,
+				8FDB502F1B93593C0075D40C /* LoginClientSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

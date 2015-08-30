@@ -6,6 +6,9 @@ PODS:
     - AFNetworking/Security (= 2.5.4)
     - AFNetworking/Serialization (= 2.5.4)
     - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking-RACExtensions (0.1.8):
+    - AFNetworking (~> 2.5.3)
+    - ReactiveCocoa (~> 2.0)
   - AFNetworking/NSURLConnection (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -42,6 +45,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.1)
+  - AFNetworking-RACExtensions (~> 0.1.8)
   - Classy (~> 0.2.4)
   - ClassyLiveLayout (~> 0.6.0)
   - Kiwi (~> 2.3.1)
@@ -53,6 +57,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
   Classy: 8d39a27d36865856c8cf21cba5d58fa9252037d9
   ClassyLiveLayout: a28f6cc404ce8f2f36bf98b628b6c85b8667e105
   Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55

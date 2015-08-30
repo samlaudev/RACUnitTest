@@ -6,6 +6,7 @@ pod 'ReactiveViewModel', '~> 0.3'
 pod 'Masonry', '~> 0.6.1'
 pod 'Classy', '~> 0.2.4'
 pod 'ClassyLiveLayout', '~> 0.6.0'
+pod 'AFNetworking-RACExtensions', '~> 0.1.8'
 
 target :RACUnitTestTests, :exclusive => true do
       pod 'Kiwi', '~> 2.3.1'

@@ -1,0 +1,18 @@
+[
+  {
+    "request" :
+    {
+      "uri" : "/v1/login",
+      "method" : "get",
+      "queries" :
+        {
+         "username" : "samlau@163.com",
+         "password" : "samlau"
+        }
+    },
+    "response" :
+    {
+      "file" : "./Login/login_response.json"
+    }
+  }
+]

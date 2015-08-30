@@ -2,13 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7993be83-196a-4bb2-acb7-8fb740e74b56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/Macro/ColorMacro.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/Category/UIImage+Helper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/Category/UIImage+Helper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTestTests/Login/LoginClientSpec.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewModelSpec.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/JSON/Login/login_conf.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/JSON/Login/login_response.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/JSON/settings.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest.xcworkspace/xcuserdata/samlau.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/RACUnitTest.xcworkspace/xcuserdata/samlau.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Login/LoginView.m" afterPath="$PROJECT_DIR$/RACUnitTest/Login/LoginView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m" afterPath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m" afterPath="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.h" afterPath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m" afterPath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Classy/Pods-Classy-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Classy/Pods-Classy-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Classy.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Classy.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ClassyLiveLayout/Pods-ClassyLiveLayout-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ClassyLiveLayout/Pods-ClassyLiveLayout-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ClassyLiveLayout.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ClassyLiveLayout.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Mantle/Pods-Mantle-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Mantle/Pods-Mantle-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Mantle.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Mantle.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Masonry/Pods-Masonry-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Masonry/Pods-Masonry-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Masonry.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Masonry.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests-Kiwi/Pods-RACUnitTestTests-Kiwi-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests-Kiwi/Pods-RACUnitTestTests-Kiwi-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTestTests-Kiwi.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTestTests-Kiwi.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTestTests.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTestTests.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveCocoa.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveCocoa.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ReactiveViewModel/Pods-ReactiveViewModel-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ReactiveViewModel/Pods-ReactiveViewModel-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveViewModel.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveViewModel.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-TPKeyboardAvoiding/Pods-TPKeyboardAvoiding-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-TPKeyboardAvoiding/Pods-TPKeyboardAvoiding-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-TPKeyboardAvoiding.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-TPKeyboardAvoiding.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-environment.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-environment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/RACUnitTest.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/xcschememanagement.plist" />
     </list>
     <ignored path="RACUnitTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,26 +71,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginViewController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="390">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginViewController.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1155">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DataValidation.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,24 +81,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataValidation.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m">
+      <file leaf-file-name="LoginViewControllerSpec.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="930">
+              <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginViewControllerSpec.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m">
+      <file leaf-file-name="LoginViewModelSpec.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewModelSpec.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="855">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding>
-                <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1185">
+              <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,42 +104,70 @@
       <file leaf-file-name="LoginViewModel.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="600">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginView.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginView.h">
+      <file leaf-file-name="LoginViewModel.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="495">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="615">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginClient.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RACUnitTest/Network/LoginClient.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginClientSpec.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginClientSpec.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.572843" vertical-offset="0" max-vertical-offset="707">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginClient.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RACUnitTest/Network/LoginClient.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="465">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#130#157#0" expanded="true" />
+                <element signature="e#132#155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginView.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginView.m">
+      <file leaf-file-name="URLHelper.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0212164" vertical-offset="163" max-vertical-offset="1320">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding>
-                <element signature="e#130#149#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="360">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIImage+Helper.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RACUnitTest/Category/UIImage+Helper.h">
+      <file leaf-file-name="URLHelper.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,13 +183,19 @@
       <list>
         <option value="$PROJECT_DIR$/RACUnitTest/LoginViewController.h" />
         <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginView.h" />
-        <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.h" />
-        <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m" />
         <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.h" />
-        <option value="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m" />
         <option value="$PROJECT_DIR$/RACUnitTest/Business/DataValidation.h" />
         <option value="$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m" />
         <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginView.m" />
+        <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m" />
+        <option value="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m" />
+        <option value="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewModelSpec.m" />
+        <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.h" />
+        <option value="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m" />
+        <option value="$PROJECT_DIR$/RACUnitTest/Network/LoginClient.m" />
+        <option value="$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.h" />
+        <option value="$PROJECT_DIR$/RACUnitTest/Network/LoginClient.h" />
+        <option value="$PROJECT_DIR$/RACUnitTestTests/Login/LoginClientSpec.m" />
       </list>
     </option>
   </component>
@@ -205,7 +256,11 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RACUnitTest" />
+              <option name="myItemId" value="RACUnitTestTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,10 +275,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RACUnitTest" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Category" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,7 +417,14 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="12">
+    <configuration default="false" name="Pods-AFNetworking-RACExtensions" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-AFNetworking-RACExtensions" CONFIG_NAME="Debug" SCHEME_NAME="Pods-AFNetworking-RACExtensions" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="13">
       <item index="0" class="java.lang.String" itemvalue="Application.RACUnitTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.Pods-AFNetworking" />
       <item index="2" class="java.lang.String" itemvalue="Application.Pods-Classy" />
@@ -379,6 +437,7 @@
       <item index="9" class="java.lang.String" itemvalue="Application.Pods" />
       <item index="10" class="java.lang.String" itemvalue="Application.Pods-RACUnitTestTests-Kiwi" />
       <item index="11" class="java.lang.String" itemvalue="Application.Pods-RACUnitTestTests" />
+      <item index="12" class="java.lang.String" itemvalue="Application.Pods-AFNetworking-RACExtensions" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -437,11 +496,127 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="615">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Network/LoginClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginClientSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Network/LoginClient.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="465">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#132#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="360">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="390">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1260">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="345">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="645">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1320">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Category/UIImage+Helper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="390">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -449,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1155">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -465,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,9 +646,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="855">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -491,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="495">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#130#157#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,9 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1215">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#130#149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1155">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,9 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -545,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="495">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#130#157#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -555,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1155">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,9 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -589,9 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="495">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#130#157#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,9 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1215">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#130#149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,17 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="e#130#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,25 +771,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m">
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="810">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <marker date="1440635126000" expanded="true" signature="617:673" placeholder="^{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Category/UIImage+Helper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="1320">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1065">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1260">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -665,29 +810,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m">
+    <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewControllerSpec.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="825">
+          <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewModelSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Helper/URLHelper.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Network/LoginClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTest/Network/LoginClient.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#132#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RACUnitTestTests/Login/LoginClientSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.572843" vertical-offset="0" max-vertical-offset="707">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RACUnitTest/Category/UIImage+Helper.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RACUnitTest/Login/LoginView.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0212164" vertical-offset="163" max-vertical-offset="1320">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#130#149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

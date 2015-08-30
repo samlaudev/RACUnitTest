@@ -34,6 +34,8 @@
     [self buildViewHierarchy];
     // bind data
     [self bindData];
+    // handle events
+    [self handleEvents];
 }
 
 - (void)buildViewHierarchy
@@ -48,6 +50,11 @@
 {
     RAC(self.loginViewModel, username) = self.rootView.usernameTextField.rac_textSignal;
     RAC(self.loginViewModel, password) = self.rootView.passwordTextField.rac_textSignal;
+}
+
+- (void)handleEvents
+{
+    self.rootView.loginButton.rac_command = self.loginViewModel.loginCommand;
 }
 
 #pragma mark - Custom Accessors

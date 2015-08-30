@@ -7,6 +7,10 @@
 //
 
 #import <Kiwi/Kiwi.h>
+#import <ReactiveCocoa/UIButton+RACCommandSupport.h>
+#import <ReactiveCocoa/RACCommand.h>
+#import <ReactiveCocoa/RACSignal.h>
+#import <ReactiveCocoa/RACSubscriptingAssignmentTrampoline.h>
 #import "LoginViewController.h"
 #import "LoginView.h"
 #import "LoginViewModel.h"
@@ -37,7 +41,7 @@ describe(@"LoginViewController", ^{
             it(@"should bind data", ^{
                 rootView.usernameTextField.text = @"samlau";
                 rootView.passwordTextField.text = @"freedom";
-                
+
                 [rootView.usernameTextField sendActionsForControlEvents:UIControlEventEditingChanged];
                 [rootView.passwordTextField sendActionsForControlEvents:UIControlEventEditingChanged];
 
@@ -45,6 +49,7 @@ describe(@"LoginViewController", ^{
                 [[controller.loginViewModel.password should] equal:rootView.passwordTextField.text];
             });
         });
+
     });
 });
 
