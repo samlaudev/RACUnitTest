@@ -7,7 +7,10 @@
 //
 
 #import <Masonry.h>
+
+#import "UIImage+Helper.h"
 #import "LoginView.h"
+#import "ColorMacro.h"
 
 @implementation LoginView
 
@@ -37,6 +40,7 @@
     [self.loginButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self);
         make.top.equalTo(self.passwordTextField.mas_bottom).with.offset(10.0f);
+        make.size.equalTo(self.passwordTextField);
     }];
 }
 
@@ -65,8 +69,11 @@
 - (UIButton *)loginButton
 {
     if (!_loginButton) {
-        _loginButton = [UIButton buttonWithType:UIButtonTypeSystem];
+        _loginButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _loginButton.layer.cornerRadius = 3.5f;
+        _loginButton.layer.masksToBounds = YES;
         [_loginButton setTitle:@"登陆" forState:UIControlStateNormal];
+        [_loginButton setBackgroundImage:[UIImage imageWithColor:BUTTON_BACKGROUND_COLOR] forState:UIControlStateNormal];
     }
     return _loginButton;
 }

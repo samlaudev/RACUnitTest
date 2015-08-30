@@ -14,6 +14,7 @@
 		8F79A1881B8A97F800DC7C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A1871B8A97F800DC7C97 /* AppDelegate.m */; };
 		8F79A1901B8A97F800DC7C97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F79A18F1B8A97F800DC7C97 /* Images.xcassets */; };
 		8F79A1931B8A97F800DC7C97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F79A1911B8A97F800DC7C97 /* LaunchScreen.xib */; };
+		8F9A6DCE1B9331A200FE3BBA /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A6DCD1B9331A200FE3BBA /* UIImage+Helper.m */; };
 		8F9AD52B1B8BF3AD00D2D784 /* LoginViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AD52A1B8BF3AD00D2D784 /* LoginViewControllerSpec.m */; };
 		8F9AD52D1B8E93E900D2D784 /* DataValidationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AD52C1B8E93E900D2D784 /* DataValidationSpec.m */; };
 		C9C767C9FB8B09CFC5E5C286 /* DataValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761B770541799767740CD /* DataValidation.m */; };
@@ -48,6 +49,9 @@
 		8F79A1921B8A97F800DC7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8F79A1981B8A97F800DC7C97 /* RACUnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACUnitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F79A19D1B8A97F800DC7C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9A6DCC1B9331A200FE3BBA /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		8F9A6DCD1B9331A200FE3BBA /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		8F9A6DCF1B93322E00FE3BBA /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
 		8F9AD52A1B8BF3AD00D2D784 /* LoginViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerSpec.m; sourceTree = "<group>"; };
 		8F9AD52C1B8E93E900D2D784 /* DataValidationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataValidationSpec.m; sourceTree = "<group>"; };
 		AD5BE772162E64C2E334E1A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,7 @@
 		8F79A1811B8A97F800DC7C97 /* RACUnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				8F9A6DCB1B9331A200FE3BBA /* Category */,
 				8F79A1861B8A97F800DC7C97 /* AppDelegate.h */,
 				8F79A1871B8A97F800DC7C97 /* AppDelegate.m */,
 				8F22FC7B1B8A9C1100B5D42C /* stylesheet.cas */,
@@ -115,6 +120,7 @@
 				8F79A1821B8A97F800DC7C97 /* Supporting Files */,
 				C9C76D410E1EF3A70675D01E /* Login */,
 				C9C76A3351BAE0774AA2DC27 /* Business */,
+				C9C765FCEBC9C6BA7D80E932 /* Macro */,
 			);
 			path = RACUnitTest;
 			sourceTree = "<group>";
@@ -146,6 +152,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8F9A6DCB1B9331A200FE3BBA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8F9A6DCC1B9331A200FE3BBA /* UIImage+Helper.h */,
+				8F9A6DCD1B9331A200FE3BBA /* UIImage+Helper.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		ACEF69B6167BA949C72BDAB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +188,14 @@
 				8F9AD52A1B8BF3AD00D2D784 /* LoginViewControllerSpec.m */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		C9C765FCEBC9C6BA7D80E932 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				8F9A6DCF1B93322E00FE3BBA /* ColorMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 		C9C76707971780DC2055A039 /* Business */ = {
@@ -374,6 +397,7 @@
 			files = (
 				8F79A1881B8A97F800DC7C97 /* AppDelegate.m in Sources */,
 				8F79A1851B8A97F800DC7C97 /* main.m in Sources */,
+				8F9A6DCE1B9331A200FE3BBA /* UIImage+Helper.m in Sources */,
 				C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */,
 				C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */,
 				C9C76EE21CBCD14DAA2E6FE2 /* LoginViewModel.m in Sources */,
