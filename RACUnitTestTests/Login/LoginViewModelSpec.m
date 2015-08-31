@@ -10,31 +10,30 @@
 #import "LoginViewModel.h"
 #import <ReactiveCocoa.h>
 
-
 SPEC_BEGIN(LoginViewModelSpec)
 
 describe(@"LoginViewModel", ^{
-    __block LoginViewModel *viewModel = nil;
-    
+    __block LoginViewModel* viewModel = nil;
+
     beforeEach(^{
         viewModel = [LoginViewModel new];
     });
-    
+
     afterEach(^{
         viewModel = nil;
     });
-    
+
     context(@"when username is samlau@163.com and password is freedom", ^{
         __block BOOL result = NO;
-        
+
         it(@"should return signal that value is YES", ^{
             viewModel.username = @"samlau@163.com";
             viewModel.password = @"freedom";
-            
+
             [[viewModel isValidUsernameAndPasswordSignal] subscribeNext:^(id x) {
                 result = [x boolValue];
             }];
-            
+
             [[theValue(result) should] beYes];
         });
     });

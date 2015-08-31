@@ -26,4 +26,9 @@
     return match != nil;
 }
 
++ (BOOL)isValidPassword:(NSString *)password
+{
+    return password.length >= 6;
+}
+
 @end

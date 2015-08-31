@@ -13,5 +13,6 @@
 
 
 + (BOOL)isValidEmail:(NSString *)data;
++ (BOOL)isValidPassword:(NSString *)password;
 
 @end

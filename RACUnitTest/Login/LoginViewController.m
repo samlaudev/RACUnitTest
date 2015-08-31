@@ -13,6 +13,7 @@
 #import "MASConstraintMaker.h"
 #import "View+MASAdditions.h"
 #import "LoginViewModel.h"
+#import "MBProgressHUD+Helper.h"
 
 @interface LoginViewController ()
 
@@ -36,6 +37,8 @@
     [self bindData];
     // handle events
     [self handleEvents];
+    // update UI
+    [self updateUI];
 }
 
 - (void)buildViewHierarchy
@@ -55,6 +58,15 @@
 - (void)handleEvents
 {
     self.rootView.loginButton.rac_command = self.loginViewModel.loginCommand;
+}
+
+- (void)updateUI
+{
+    [self.loginViewModel.loginCommand.executionSignals subscribeNext:^(RACSignal *subscribedSignal) {
+        [subscribedSignal subscribeCompleted:^{
+            [MBProgressHUD showMessage:@"登录成功" onView:self.view];
+        }];
+    }];
 }
 
 #pragma mark - Custom Accessors

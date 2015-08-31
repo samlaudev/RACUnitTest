@@ -13,17 +13,31 @@
 SPEC_BEGIN(DataValidationSpec)
 
 describe(@"DataValidation", ^{
-    context(@"when data is samlau@163.com", ^{
+    context(@"when email is samlau@163.com", ^{
         it(@"should return YES", ^{
             BOOL result = [DataValidation isValidEmail:@"samlau@163.com"];
             [[theValue(result) should] beYes];
         });
     });
     
-    context(@"when data is samlau163.com", ^{
+    context(@"when email is samlau163.com", ^{
         it(@"should return YES", ^{
             BOOL result = [DataValidation isValidEmail:@"samlau163.com"];
             [[theValue(result) should] beNo];
+        });
+    });
+    
+    context(@"when password is sam", ^{
+        it(@"should return NO", ^{
+            BOOL result = [DataValidation isValidPassword:@"sam"];
+            [[theValue(result) should] beNo];
+        });
+    });
+    
+    context(@"when password is samlau", ^{
+        it(@"should return YES", ^{
+            BOOL result = [DataValidation isValidPassword:@"samlau"];
+            [[theValue(result) should] beYes];
         });
     });
 });

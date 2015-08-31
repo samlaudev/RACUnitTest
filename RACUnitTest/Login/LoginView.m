@@ -62,6 +62,7 @@
         _passwordTextField = [UITextField new];
         _passwordTextField.placeholder = @"密码";
         _passwordTextField.borderStyle = UITextBorderStyleRoundedRect;
+        _passwordTextField.secureTextEntry = YES;
     }
     return _passwordTextField;
 }

@@ -10,6 +10,7 @@
 #import <ReactiveCocoa.h>
 #import "LoginViewModel.h"
 #import "DataValidation.h"
+#import "LoginClient.h"
 
 @implementation LoginViewModel
 
@@ -18,7 +19,7 @@
     if (!_loginCommand) {
         _loginCommand = [[RACCommand alloc] initWithEnabled:[self isValidUsernameAndPasswordSignal] signalBlock:^RACSignal *(id input) {
 
-            return nil;
+            return [LoginClient loginWithUsername:self.username password:self.password];
         }];
     }
     return _loginCommand;
@@ -27,7 +28,7 @@
 - (RACSignal *)isValidUsernameAndPasswordSignal
 {
     return [RACSignal combineLatest:@[RACObserve(self, username), RACObserve(self, password)] reduce:^(NSString *username, NSString *password) {
-         return @([DataValidation isValidEmail:username] && password.length >= 6);
+         return @([DataValidation isValidEmail:username] && [DataValidation isValidPassword:password]);
     }];
 }
 

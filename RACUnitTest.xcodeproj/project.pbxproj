@@ -23,6 +23,7 @@
 		8FDB502A1B9353A20075D40C /* login_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB50281B9353A20075D40C /* login_response.json */; };
 		8FDB502D1B9357B20075D40C /* URLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB502C1B9357B20075D40C /* URLHelper.m */; };
 		8FDB502F1B93593C0075D40C /* LoginClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB502E1B93593C0075D40C /* LoginClientSpec.m */; };
+		8FDCA3751B94A317003BA720 /* MBProgressHUD+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDCA3741B94A317003BA720 /* MBProgressHUD+Helper.m */; };
 		C9C767C9FB8B09CFC5E5C286 /* DataValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761B770541799767740CD /* DataValidation.m */; };
 		C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76585023CA264A1F92CD4 /* LoginView.m */; };
 		C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761AA3ABAAB32B24A6336 /* LoginClient.m */; };
@@ -68,6 +69,8 @@
 		8FDB502B1B9357B20075D40C /* URLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
 		8FDB502C1B9357B20075D40C /* URLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelper.m; sourceTree = "<group>"; };
 		8FDB502E1B93593C0075D40C /* LoginClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginClientSpec.m; sourceTree = "<group>"; };
+		8FDCA3731B94A317003BA720 /* MBProgressHUD+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Helper.h"; sourceTree = "<group>"; };
+		8FDCA3741B94A317003BA720 /* MBProgressHUD+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Helper.m"; sourceTree = "<group>"; };
 		AD5BE772162E64C2E334E1A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C7618C559D212C8D13233F /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		C9C761AA3ABAAB32B24A6336 /* LoginClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginClient.m; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 		8F9A6DCB1B9331A200FE3BBA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8FDCA3731B94A317003BA720 /* MBProgressHUD+Helper.h */,
+				8FDCA3741B94A317003BA720 /* MBProgressHUD+Helper.m */,
 				8F9A6DCC1B9331A200FE3BBA /* UIImage+Helper.h */,
 				8F9A6DCD1B9331A200FE3BBA /* UIImage+Helper.m */,
 			);
@@ -462,6 +467,7 @@
 				C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */,
 				C9C76EE21CBCD14DAA2E6FE2 /* LoginViewModel.m in Sources */,
 				C9C767C9FB8B09CFC5E5C286 /* DataValidation.m in Sources */,
+				8FDCA3751B94A317003BA720 /* MBProgressHUD+Helper.m in Sources */,
 				C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */,
 				8FDB502D1B9357B20075D40C /* URLHelper.m in Sources */,
 			);
