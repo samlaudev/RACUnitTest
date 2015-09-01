@@ -47,4 +47,7 @@
 ![Send request to Local Server.png](https://raw.githubusercontent.com/samlaudev/RACUnitTest/master/ScreenShots/paw验证是否访问成功.png)
 
 ###配置IP
+由于这里使用的是本地服务，所以很有可能需要修改本地IP地址，先找到本机的IP。
 
+然在`URLHelper`类中修改BaseURL的IP字段。
+![](https://raw.githubusercontent.com/samlaudev/RACUnitTest/master/ScreenShots/修改IP.png)
