@@ -14,6 +14,7 @@
 #import "View+MASAdditions.h"
 #import "LoginViewModel.h"
 #import "MBProgressHUD+Helper.h"
+#import "FoodListViewController.h"
 
 @interface LoginViewController ()
 
@@ -65,6 +66,11 @@
     [self.loginViewModel.loginCommand.executionSignals subscribeNext:^(RACSignal *subscribedSignal) {
         [subscribedSignal subscribeCompleted:^{
             [MBProgressHUD showMessage:@"登录成功" onView:self.view];
+
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                FoodListViewController *destViewController = [FoodListViewController new];
+                [self.navigationController pushViewController:destViewController animated:YES];
+            });
         }];
     }];
 }

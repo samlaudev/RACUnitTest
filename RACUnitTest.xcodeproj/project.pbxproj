@@ -34,6 +34,7 @@
 		C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769403E0FAAB4D8679122 /* LoginViewController.m */; };
 		C9C76EE21CBCD14DAA2E6FE2 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C7618C559D212C8D13233F /* LoginViewModel.m */; };
 		DC02C08BD01B8451569CDBE2 /* FoodListClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02C49B36D3EE3F7590D6D9 /* FoodListClient.m */; };
+		DC02C49DA37F875A3625E615 /* FoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CB4F9EE355CB4123764F /* FoodListViewController.m */; };
 		DC02C4E29A7703112D916BA6 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */; };
 		E3D33710712C06DA1B06F08A /* libPods-RACUnitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F960278C606744E7420338 /* libPods-RACUnitTestTests.a */; };
 /* End PBXBuildFile section */
@@ -97,7 +98,9 @@
 		D55DB9E2C6FAD16444E59CE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DC02C0D5E0BE6DC281EB03AD /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
 		DC02C2D0D4FAD3585F7363B3 /* FoodListClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListClient.h; sourceTree = "<group>"; };
+		DC02C3CFFA1AE23C058CEB59 /* FoodListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListViewController.h; sourceTree = "<group>"; };
 		DC02C49B36D3EE3F7590D6D9 /* FoodListClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListClient.m; sourceTree = "<group>"; };
+		DC02CB4F9EE355CB4123764F /* FoodListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListViewController.m; sourceTree = "<group>"; };
 		DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
 		E31320FB373391F2AAAA9086 /* Pods-RACUnitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACUnitTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -327,6 +330,8 @@
 			children = (
 				DC02C0D5E0BE6DC281EB03AD /* FoodModel.h */,
 				DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */,
+				DC02C3CFFA1AE23C058CEB59 /* FoodListViewController.h */,
+				DC02CB4F9EE355CB4123764F /* FoodListViewController.m */,
 			);
 			path = FoodList;
 			sourceTree = "<group>";
@@ -524,6 +529,7 @@
 				8FDB502D1B9357B20075D40C /* URLHelper.m in Sources */,
 				DC02C08BD01B8451569CDBE2 /* FoodListClient.m in Sources */,
 				DC02C4E29A7703112D916BA6 /* FoodModel.m in Sources */,
+				DC02C49DA37F875A3625E615 /* FoodListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
