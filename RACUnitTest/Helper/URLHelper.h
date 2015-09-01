@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-//static NSString *const BaseURL = @"http://192.168.1.101:12306";
-static NSString *const BaseURL = @"http://192.168.0.119:12306";
+static NSString *const BaseURL = @"http://192.168.1.101:12306";
+//static NSString *const BaseURL = @"http://192.168.0.119:12306";
 
 @interface URLHelper : NSObject
 
