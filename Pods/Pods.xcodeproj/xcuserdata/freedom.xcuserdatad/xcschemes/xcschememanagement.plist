@@ -4,135 +4,145 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-AFNetworking-RACExtensions.xcscheme</key>
+		<key>AFNetworking-RACExtensions.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-AFNetworking.xcscheme</key>
+		<key>AFNetworking.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-Classy.xcscheme</key>
+		<key>Classy.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-ClassyLiveLayout.xcscheme</key>
+		<key>ClassyLiveLayout.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-MBProgressHUD.xcscheme</key>
+		<key>Kiwi.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-Mantle.xcscheme</key>
+		<key>MBProgressHUD.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-Masonry.xcscheme</key>
+		<key>Mantle.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-RACUnitTestTests-Kiwi.xcscheme</key>
+		<key>Masonry.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-RACUnitTestTests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
-		</dict>
-		<key>Pods-ReactiveCocoa.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
-		</dict>
-		<key>Pods-ReactiveViewModel.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>12</integer>
-		</dict>
-		<key>Pods-TPKeyboardAvoiding.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>13</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveViewModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>041BF6F463CA1037755EDDFC</key>
+		<key>1163531701E7990F8F8161FD9B7429E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0A66F9AE7CF0B11559C53FF0</key>
+		<key>1D265AA854895ED157F05273BEAE3157</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0E21B34D50BA56C6C36C88A7</key>
+		<key>29EEB146E2335967B8E8E95D055BD80D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2317A05E5DB5067ED0F3C523</key>
+		<key>33C216C8C4820F43D72B2D0EC97203BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>60FF0358144643B8CD96F31E</key>
+		<key>44C490C093A7EC72DAC2E995FD677E21</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6486D584272D2400BCCFA2BC</key>
+		<key>5352D432641F0656C90741034E32F31E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6A8BFA04601018F9E170EF85</key>
+		<key>60F9922756461E70BE561124A6152DDA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B0C0919639470994BB5F1FE</key>
+		<key>7DAC6EC507C8FC7B42540B3A2E0AD9D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8CE04A938DC0A3683906BB6E</key>
+		<key>AF02DE907B5FB497D432BE0E8E56F848</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9640D7E1BDF2D8EC770134B2</key>
+		<key>BA57C6C0EA8ED85E31EAF90052550F08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D3DFE0A8A977D339B7FAD045</key>
+		<key>CEC7152141F13BDDA1ADFDCFD8C9F4B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E622E8D715866E8A7373663B</key>
+		<key>E0F455BADCCBAB48274F7FD412F4E391</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F51283A476196F160D0B9C1F</key>
+		<key>EC8B7561AAEB3614EE3883C6477C9C80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE2CC674248566379F584E30A343B1A0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

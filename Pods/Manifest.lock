@@ -28,9 +28,9 @@ PODS:
     - Classy
     - Masonry
   - Kiwi (2.3.1)
-  - Mantle (1.5.4):
-    - Mantle/extobjc (= 1.5.4)
-  - Mantle/extobjc (1.5.4)
+  - Mantle (1.5.5):
+    - Mantle/extobjc (= 1.5.5)
+  - Mantle/extobjc (1.5.5)
   - Masonry (0.6.2)
   - MBProgressHUD (0.9.1)
   - ReactiveCocoa (2.4.7):
@@ -42,7 +42,10 @@ PODS:
     - ReactiveCocoa/Core
   - ReactiveViewModel (0.3):
     - ReactiveCocoa (~> 2.4)
-  - TPKeyboardAvoiding (1.2.8)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - TPKeyboardAvoiding (1.2.9)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.1)
@@ -55,6 +58,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 0.9.1)
   - ReactiveCocoa (~> 2.4.4)
   - ReactiveViewModel (~> 0.3)
+  - SDWebImage (~> 3.7.2)
   - TPKeyboardAvoiding (~> 1.2.6)
 
 SPEC CHECKSUMS:
@@ -63,11 +67,12 @@ SPEC CHECKSUMS:
   Classy: 8d39a27d36865856c8cf21cba5d58fa9252037d9
   ClassyLiveLayout: a28f6cc404ce8f2f36bf98b628b6c85b8667e105
   Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
-  Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   ReactiveCocoa: eb38dee0a0e698f73a9b25e5c1faea2bb4c79240
   ReactiveViewModel: 58918dcbcec2d3151195ab1ed9163c57a8163999
-  TPKeyboardAvoiding: f1ef0028fe9ba98ef2871cf55b4bbc39cae0267b
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  TPKeyboardAvoiding: ff1ee4e5a5a0c119b965552af8f183868ea20207
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

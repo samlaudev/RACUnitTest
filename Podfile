@@ -8,6 +8,7 @@ pod 'Classy', '~> 0.2.4'
 pod 'ClassyLiveLayout', '~> 0.6.0'
 pod 'AFNetworking-RACExtensions', '~> 0.1.8'
 pod 'MBProgressHUD', '~> 0.9.1'
+pod 'SDWebImage', '~> 3.7.2'
 
 target :RACUnitTestTests, :exclusive => true do
       pod 'Kiwi', '~> 2.3.1'

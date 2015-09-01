@@ -11,12 +11,12 @@
 		1AFEED271B9545E900CED7F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFEED261B9545E900CED7F2 /* libPods.a */; };
 		1AFEED291B9545F700CED7F2 /* libPods-RACUnitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFEED281B9545F700CED7F2 /* libPods-RACUnitTestTests.a */; };
 		1AFEED2B1B954B2D00CED7F2 /* FoodModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEED2A1B954B2D00CED7F2 /* FoodModelSpec.m */; };
+		1AFEED2E1B95551400CED7F2 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEED2D1B95551400CED7F2 /* ArrayDataSource.m */; };
 		8F22FC7C1B8A9C1100B5D42C /* stylesheet.cas in Resources */ = {isa = PBXBuildFile; fileRef = 8F22FC7B1B8A9C1100B5D42C /* stylesheet.cas */; };
 		8F79A1851B8A97F800DC7C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A1841B8A97F800DC7C97 /* main.m */; };
 		8F79A1881B8A97F800DC7C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A1871B8A97F800DC7C97 /* AppDelegate.m */; };
 		8F79A1901B8A97F800DC7C97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F79A18F1B8A97F800DC7C97 /* Images.xcassets */; };
 		8F79A1931B8A97F800DC7C97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F79A1911B8A97F800DC7C97 /* LaunchScreen.xib */; };
-		8F9A6DCE1B9331A200FE3BBA /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A6DCD1B9331A200FE3BBA /* UIImage+Helper.m */; };
 		8F9AD52B1B8BF3AD00D2D784 /* LoginViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AD52A1B8BF3AD00D2D784 /* LoginViewControllerSpec.m */; };
 		8F9AD52D1B8E93E900D2D784 /* DataValidationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9AD52C1B8E93E900D2D784 /* DataValidationSpec.m */; };
 		8FDB501D1B934ACB0075D40C /* LoginViewModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB501C1B934ACB0075D40C /* LoginViewModelSpec.m */; };
@@ -25,17 +25,20 @@
 		8FDB502A1B9353A20075D40C /* login_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB50281B9353A20075D40C /* login_response.json */; };
 		8FDB502D1B9357B20075D40C /* URLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB502C1B9357B20075D40C /* URLHelper.m */; };
 		8FDB502F1B93593C0075D40C /* LoginClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB502E1B93593C0075D40C /* LoginClientSpec.m */; };
-		8FDCA3751B94A317003BA720 /* MBProgressHUD+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDCA3741B94A317003BA720 /* MBProgressHUD+Helper.m */; };
-		C9C767C9FB8B09CFC5E5C286 /* DataValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761B770541799767740CD /* DataValidation.m */; };
 		C9C76836DD2FAA06C2A06AC3 /* food_list_response.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76D414E045736B00AF143 /* food_list_response.json */; };
 		C9C76AC4C0E993C3A4F2FE7C /* food_list_conf.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C767516B8F1EC8A4621C5E /* food_list_conf.json */; };
-		C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76585023CA264A1F92CD4 /* LoginView.m */; };
 		C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761AA3ABAAB32B24A6336 /* LoginClient.m */; };
-		C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769403E0FAAB4D8679122 /* LoginViewController.m */; };
-		C9C76EE21CBCD14DAA2E6FE2 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C7618C559D212C8D13233F /* LoginViewModel.m */; };
 		DC02C08BD01B8451569CDBE2 /* FoodListClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02C49B36D3EE3F7590D6D9 /* FoodListClient.m */; };
-		DC02C49DA37F875A3625E615 /* FoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CB4F9EE355CB4123764F /* FoodListViewController.m */; };
-		DC02C4E29A7703112D916BA6 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */; };
+		DC02C25039A2341FE5D953DB /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CAA8E8DE682343B7CF0C /* LoginViewModel.m */; };
+		DC02C5374561DCCFDB4B15BF /* DataValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02C5540363CF6D67EFFC93 /* DataValidation.m */; };
+		DC02C8B9B8F489859DD21195 /* MBProgressHUD+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CF4AD2269A51E44A2545 /* MBProgressHUD+Helper.m */; };
+		DC02C8C8AC84A7C9C3E2E639 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02C768B8948317D4344FF5 /* FoodCell.m */; };
+		DC02CA926FACF017B55CE170 /* FoodListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CDACADD50576169708B6 /* FoodListViewController.m */; };
+		DC02CAFFC23C24FA6AC6CF33 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02C137A5C4AA26FAEA05FF /* LoginView.m */; };
+		DC02CBC64BD7BF3E2436DC5D /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02C4D079032F274AC27A59 /* UIImage+Helper.m */; };
+		DC02CDCAB487D8D9AAA08057 /* FoodViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CE95D4C21EC8127BCE1A /* FoodViewModel.m */; };
+		DC02CE0D8779B62058F5CA8C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02C3B5E7C92336112761C1 /* LoginViewController.m */; };
+		DC02CE0E06012FC5C4FED3D8 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CAF7E6CE6583CDC6267A /* FoodModel.m */; };
 		E3D33710712C06DA1B06F08A /* libPods-RACUnitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F960278C606744E7420338 /* libPods-RACUnitTestTests.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,8 @@
 		1AFEED261B9545E900CED7F2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		1AFEED281B9545F700CED7F2 /* libPods-RACUnitTestTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-RACUnitTestTests.a"; path = "Pods/../build/Debug-iphoneos/libPods-RACUnitTestTests.a"; sourceTree = "<group>"; };
 		1AFEED2A1B954B2D00CED7F2 /* FoodModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModelSpec.m; sourceTree = "<group>"; };
+		1AFEED2C1B95551400CED7F2 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		1AFEED2D1B95551400CED7F2 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
 		21EE6E61BB43198033C0941E /* libPods-RACUnitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACUnitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		612762B2F13423233ED4A612 /* Pods-RACUnitTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACUnitTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		8F22FC7B1B8A9C1100B5D42C /* stylesheet.cas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stylesheet.cas; sourceTree = "<group>"; };
@@ -68,8 +73,6 @@
 		8F79A1921B8A97F800DC7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8F79A1981B8A97F800DC7C97 /* RACUnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACUnitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F79A19D1B8A97F800DC7C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F9A6DCC1B9331A200FE3BBA /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
-		8F9A6DCD1B9331A200FE3BBA /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
 		8F9A6DCF1B93322E00FE3BBA /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
 		8F9AD52A1B8BF3AD00D2D784 /* LoginViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerSpec.m; sourceTree = "<group>"; };
 		8F9AD52C1B8E93E900D2D784 /* DataValidationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataValidationSpec.m; sourceTree = "<group>"; };
@@ -80,28 +83,34 @@
 		8FDB502B1B9357B20075D40C /* URLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
 		8FDB502C1B9357B20075D40C /* URLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelper.m; sourceTree = "<group>"; };
 		8FDB502E1B93593C0075D40C /* LoginClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginClientSpec.m; sourceTree = "<group>"; };
-		8FDCA3731B94A317003BA720 /* MBProgressHUD+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Helper.h"; sourceTree = "<group>"; };
-		8FDCA3741B94A317003BA720 /* MBProgressHUD+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Helper.m"; sourceTree = "<group>"; };
 		AD5BE772162E64C2E334E1A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9C7618C559D212C8D13233F /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		C9C761AA3ABAAB32B24A6336 /* LoginClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginClient.m; sourceTree = "<group>"; };
-		C9C761B770541799767740CD /* DataValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataValidation.m; sourceTree = "<group>"; };
-		C9C762D63131353391BEE909 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		C9C76378F408ABB489E48BE4 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
-		C9C7647F95E9196C6A3BB96E /* DataValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataValidation.h; sourceTree = "<group>"; };
 		C9C764F2DF09A7B029657165 /* LoginClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginClient.h; sourceTree = "<group>"; };
-		C9C76585023CA264A1F92CD4 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		C9C767516B8F1EC8A4621C5E /* food_list_conf.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = food_list_conf.json; sourceTree = "<group>"; };
-		C9C768BA2E024DB54F57D382 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
-		C9C769403E0FAAB4D8679122 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C9C76D414E045736B00AF143 /* food_list_response.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = food_list_response.json; sourceTree = "<group>"; };
 		D55DB9E2C6FAD16444E59CE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		DC02C0D5E0BE6DC281EB03AD /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		DC02C0389DBC2B18B123C009 /* MBProgressHUD+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Helper.h"; sourceTree = "<group>"; };
+		DC02C093CBB7E87BE57899D9 /* FoodListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListViewController.h; sourceTree = "<group>"; };
+		DC02C137A5C4AA26FAEA05FF /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		DC02C1B63F81F8F81ACFE3D2 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		DC02C1D10654A9DB870953DB /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		DC02C2D0D4FAD3585F7363B3 /* FoodListClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListClient.h; sourceTree = "<group>"; };
-		DC02C3CFFA1AE23C058CEB59 /* FoodListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListViewController.h; sourceTree = "<group>"; };
+		DC02C3B4F4CA8686080855B7 /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		DC02C3B5E7C92336112761C1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DC02C48A2EC438CE49D9620B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		DC02C49B36D3EE3F7590D6D9 /* FoodListClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListClient.m; sourceTree = "<group>"; };
-		DC02CB4F9EE355CB4123764F /* FoodListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListViewController.m; sourceTree = "<group>"; };
-		DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		DC02C4D079032F274AC27A59 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		DC02C5540363CF6D67EFFC93 /* DataValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataValidation.m; sourceTree = "<group>"; };
+		DC02C6E9A7AEBDFA57D2C0E4 /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
+		DC02C768B8948317D4344FF5 /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
+		DC02C80306EF1D811AD7757F /* FoodViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewModel.h; sourceTree = "<group>"; };
+		DC02C928D378544A4B798F49 /* DataValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataValidation.h; sourceTree = "<group>"; };
+		DC02CAA8E8DE682343B7CF0C /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		DC02CAF7E6CE6583CDC6267A /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
+		DC02CDACADD50576169708B6 /* FoodListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListViewController.m; sourceTree = "<group>"; };
+		DC02CE8D6EF252FAA86D1F72 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		DC02CE95D4C21EC8127BCE1A /* FoodViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewModel.m; sourceTree = "<group>"; };
+		DC02CF4AD2269A51E44A2545 /* MBProgressHUD+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Helper.m"; sourceTree = "<group>"; };
 		E31320FB373391F2AAAA9086 /* Pods-RACUnitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACUnitTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,14 +164,12 @@
 				8F79A18F1B8A97F800DC7C97 /* Images.xcassets */,
 				8F79A1911B8A97F800DC7C97 /* LaunchScreen.xib */,
 				8FDB501E1B93537C0075D40C /* JSON */,
-				8F9A6DCB1B9331A200FE3BBA /* Category */,
-				C9C76D410E1EF3A70675D01E /* Login */,
-				C9C76A3351BAE0774AA2DC27 /* Business */,
 				C9C765FCEBC9C6BA7D80E932 /* Macro */,
 				C9C76F2B4CED53CF55495154 /* Network */,
-				8F79A1821B8A97F800DC7C97 /* Supporting Files */,
 				C9C761F425AF59637884C7E2 /* Helper */,
-				DC02CA819C10B7A26C587C8E /* FoodList */,
+				8F79A1821B8A97F800DC7C97 /* Supporting Files */,
+				DC02CD4B928839245198DC89 /* General */,
+				DC02C3128ED9FBEA7E3BC817 /* Sections */,
 			);
 			path = RACUnitTest;
 			sourceTree = "<group>";
@@ -193,17 +200,6 @@
 				8F79A19D1B8A97F800DC7C97 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8F9A6DCB1B9331A200FE3BBA /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				8FDCA3731B94A317003BA720 /* MBProgressHUD+Helper.h */,
-				8FDCA3741B94A317003BA720 /* MBProgressHUD+Helper.m */,
-				8F9A6DCC1B9331A200FE3BBA /* UIImage+Helper.h */,
-				8F9A6DCD1B9331A200FE3BBA /* UIImage+Helper.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		8FDB501E1B93537C0075D40C /* JSON */ = {
@@ -283,15 +279,6 @@
 			path = Business;
 			sourceTree = "<group>";
 		};
-		C9C76A3351BAE0774AA2DC27 /* Business */ = {
-			isa = PBXGroup;
-			children = (
-				C9C7647F95E9196C6A3BB96E /* DataValidation.h */,
-				C9C761B770541799767740CD /* DataValidation.m */,
-			);
-			path = Business;
-			sourceTree = "<group>";
-		};
 		C9C76A6279910CECDFF1D396 /* FoodList */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,19 +286,6 @@
 				C9C76D414E045736B00AF143 /* food_list_response.json */,
 			);
 			path = FoodList;
-			sourceTree = "<group>";
-		};
-		C9C76D410E1EF3A70675D01E /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				C9C769403E0FAAB4D8679122 /* LoginViewController.m */,
-				C9C762D63131353391BEE909 /* LoginViewController.h */,
-				C9C768BA2E024DB54F57D382 /* LoginView.h */,
-				C9C76585023CA264A1F92CD4 /* LoginView.m */,
-				C9C76378F408ABB489E48BE4 /* LoginViewModel.h */,
-				C9C7618C559D212C8D13233F /* LoginViewModel.m */,
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		C9C76F2B4CED53CF55495154 /* Network */ = {
@@ -325,15 +299,46 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		DC02CA819C10B7A26C587C8E /* FoodList */ = {
+		DC02C3128ED9FBEA7E3BC817 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				DC02C0D5E0BE6DC281EB03AD /* FoodModel.h */,
-				DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */,
-				DC02C3CFFA1AE23C058CEB59 /* FoodListViewController.h */,
-				DC02CB4F9EE355CB4123764F /* FoodListViewController.m */,
+				DC02C3A4FE99966823E38496 /* Login */,
+				DC02CD019C0B55657DB0789F /* FoodList */,
 			);
-			path = FoodList;
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		DC02C3A4FE99966823E38496 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DC02C3B5E7C92336112761C1 /* LoginViewController.m */,
+				DC02C48A2EC438CE49D9620B /* LoginViewController.h */,
+				DC02C1D10654A9DB870953DB /* LoginView.h */,
+				DC02C137A5C4AA26FAEA05FF /* LoginView.m */,
+				DC02CE8D6EF252FAA86D1F72 /* LoginViewModel.h */,
+				DC02CAA8E8DE682343B7CF0C /* LoginViewModel.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DC02C62452996FCF73002DEB /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				DC02C928D378544A4B798F49 /* DataValidation.h */,
+				DC02C5540363CF6D67EFFC93 /* DataValidation.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		DC02C9F9109C55C184C5B537 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DC02C0389DBC2B18B123C009 /* MBProgressHUD+Helper.h */,
+				DC02CF4AD2269A51E44A2545 /* MBProgressHUD+Helper.m */,
+				DC02C1B63F81F8F81ACFE3D2 /* UIImage+Helper.h */,
+				DC02C4D079032F274AC27A59 /* UIImage+Helper.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		DC02CD0019888FB074273D6D /* FoodList */ = {
@@ -343,6 +348,40 @@
 				1AFEED2A1B954B2D00CED7F2 /* FoodModelSpec.m */,
 			);
 			path = FoodList;
+			sourceTree = "<group>";
+		};
+		DC02CD019C0B55657DB0789F /* FoodList */ = {
+			isa = PBXGroup;
+			children = (
+				DC02C3B4F4CA8686080855B7 /* FoodModel.h */,
+				DC02CAF7E6CE6583CDC6267A /* FoodModel.m */,
+				DC02C093CBB7E87BE57899D9 /* FoodListViewController.h */,
+				DC02CDACADD50576169708B6 /* FoodListViewController.m */,
+				DC02C6E9A7AEBDFA57D2C0E4 /* FoodCell.h */,
+				DC02C768B8948317D4344FF5 /* FoodCell.m */,
+				DC02C80306EF1D811AD7757F /* FoodViewModel.h */,
+				DC02CE95D4C21EC8127BCE1A /* FoodViewModel.m */,
+			);
+			path = FoodList;
+			sourceTree = "<group>";
+		};
+		DC02CD024C2EDE7257FD9328 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEED2C1B95551400CED7F2 /* ArrayDataSource.h */,
+				1AFEED2D1B95551400CED7F2 /* ArrayDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		DC02CD4B928839245198DC89 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DC02C9F9109C55C184C5B537 /* Category */,
+				DC02C62452996FCF73002DEB /* Business */,
+				DC02CD024C2EDE7257FD9328 /* DataSource */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -519,17 +558,20 @@
 			files = (
 				8F79A1881B8A97F800DC7C97 /* AppDelegate.m in Sources */,
 				8F79A1851B8A97F800DC7C97 /* main.m in Sources */,
-				8F9A6DCE1B9331A200FE3BBA /* UIImage+Helper.m in Sources */,
-				C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */,
-				C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */,
-				C9C76EE21CBCD14DAA2E6FE2 /* LoginViewModel.m in Sources */,
-				C9C767C9FB8B09CFC5E5C286 /* DataValidation.m in Sources */,
-				8FDCA3751B94A317003BA720 /* MBProgressHUD+Helper.m in Sources */,
+				1AFEED2E1B95551400CED7F2 /* ArrayDataSource.m in Sources */,
 				C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */,
 				8FDB502D1B9357B20075D40C /* URLHelper.m in Sources */,
 				DC02C08BD01B8451569CDBE2 /* FoodListClient.m in Sources */,
-				DC02C4E29A7703112D916BA6 /* FoodModel.m in Sources */,
-				DC02C49DA37F875A3625E615 /* FoodListViewController.m in Sources */,
+				DC02C8B9B8F489859DD21195 /* MBProgressHUD+Helper.m in Sources */,
+				DC02CBC64BD7BF3E2436DC5D /* UIImage+Helper.m in Sources */,
+				DC02CE0D8779B62058F5CA8C /* LoginViewController.m in Sources */,
+				DC02CAFFC23C24FA6AC6CF33 /* LoginView.m in Sources */,
+				DC02C25039A2341FE5D953DB /* LoginViewModel.m in Sources */,
+				DC02CE0E06012FC5C4FED3D8 /* FoodModel.m in Sources */,
+				DC02CA926FACF017B55CE170 /* FoodListViewController.m in Sources */,
+				DC02C5374561DCCFDB4B15BF /* DataValidation.m in Sources */,
+				DC02C8C8AC84A7C9C3E2E639 /* FoodCell.m in Sources */,
+				DC02CDCAB487D8D9AAA08057 /* FoodViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
