@@ -38,6 +38,15 @@
 
 3. 打开浏览器访问`http://localhost:12306`，你回看见"Hello, Moco"
 
+###配置IP
+由于这里使用的是本地服务，所以很有可能需要修改本地IP地址，先找到本机的IP。
+
+![](https://raw.githubusercontent.com/samlaudev/RACUnitTest/master/ScreenShots/本地IP.png)
+
+然在`URLHelper`类中修改BaseURL的IP字段。
+
+![](https://raw.githubusercontent.com/samlaudev/RACUnitTest/master/ScreenShots/修改IP.png)
+
 
 ###启动服务
 将路径跳转到**RACUnitTest/RACUnitTest/JSON**目录，找到settings.json文件，使用命令行来启动服务：
@@ -46,8 +55,4 @@
 ###使用Paw验证是否配置成功
 ![Send request to Local Server.png](https://raw.githubusercontent.com/samlaudev/RACUnitTest/master/ScreenShots/paw验证是否访问成功.png)
 
-###配置IP
-由于这里使用的是本地服务，所以很有可能需要修改本地IP地址，先找到本机的IP。
-
-然在`URLHelper`类中修改BaseURL的IP字段。
-![](https://raw.githubusercontent.com/samlaudev/RACUnitTest/master/ScreenShots/修改IP.png)
+###运行测试
