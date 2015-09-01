@@ -2,39 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7993be83-196a-4bb2-acb7-8fb740e74b56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/Category/MBProgressHUD+Helper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RACUnitTest/Category/MBProgressHUD+Helper.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest.xcworkspace/xcuserdata/samlau.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/RACUnitTest.xcworkspace/xcuserdata/samlau.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Business/DataValidation.h" afterPath="$PROJECT_DIR$/RACUnitTest/Business/DataValidation.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m" afterPath="$PROJECT_DIR$/RACUnitTest/Business/DataValidation.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTestTests/Business/DataValidationSpec.m" afterPath="$PROJECT_DIR$/RACUnitTestTests/Business/DataValidationSpec.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Login/LoginView.h" afterPath="$PROJECT_DIR$/RACUnitTest/Login/LoginView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m" afterPath="$PROJECT_DIR$/RACUnitTest/Login/LoginViewModel.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewModelSpec.m" afterPath="$PROJECT_DIR$/RACUnitTestTests/Login/LoginViewModelSpec.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-AFNetworking/Pods-AFNetworking-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-AFNetworking-RACExtensions/Pods-AFNetworking-RACExtensions-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-AFNetworking-RACExtensions/Pods-AFNetworking-RACExtensions-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Classy/Pods-Classy-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Classy/Pods-Classy-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ClassyLiveLayout/Pods-ClassyLiveLayout-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ClassyLiveLayout/Pods-ClassyLiveLayout-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Mantle/Pods-Mantle-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Mantle/Pods-Mantle-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Masonry/Pods-Masonry-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Masonry/Pods-Masonry-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests-Kiwi/Pods-RACUnitTestTests-Kiwi-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests-Kiwi/Pods-RACUnitTestTests-Kiwi-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ReactiveViewModel/Pods-ReactiveViewModel-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ReactiveViewModel/Pods-ReactiveViewModel-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-TPKeyboardAvoiding/Pods-TPKeyboardAvoiding-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-TPKeyboardAvoiding/Pods-TPKeyboardAvoiding-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-environment.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods-environment.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods/Pods.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RACUnitTest.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/RACUnitTest.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-AFNetworking-RACExtensions.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-AFNetworking-RACExtensions.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Classy.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Classy.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ClassyLiveLayout.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ClassyLiveLayout.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Mantle.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Mantle.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Masonry.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-Masonry.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTestTests-Kiwi.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTestTests-Kiwi.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTestTests.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-RACUnitTestTests.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveCocoa.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveCocoa.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveViewModel.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-ReactiveViewModel.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-TPKeyboardAvoiding.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods-TPKeyboardAvoiding.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/samlau.xcuserdatad/xcschemes/Pods.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="RACUnitTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,9 +43,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <marker date="1441027818000" expanded="true" signature="207:296" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,18 +53,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3606789" vertical-offset="0" max-vertical-offset="750">
               <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-              <folding>
-                <marker date="1441028101000" expanded="false" signature="143:183" placeholder="..." />
-                <marker date="1441028101000" expanded="true" signature="246:1138" placeholder="^{...}" />
-                <marker date="1441028101000" expanded="true" signature="294:472" placeholder="^{...}" />
-                <marker date="1441028101000" expanded="true" signature="330:464" placeholder="^{...}" />
-                <marker date="1441028101000" expanded="true" signature="524:700" placeholder="^{...}" />
-                <marker date="1441028101000" expanded="true" signature="560:692" placeholder="^{...}" />
-                <marker date="1441028101000" expanded="true" signature="745:913" placeholder="^{...}" />
-                <marker date="1441028101000" expanded="true" signature="780:905" placeholder="^{...}" />
-                <marker date="1441028101000" expanded="true" signature="961:1134" placeholder="^{...}" />
-                <marker date="1441028101000" expanded="true" signature="997:1126" placeholder="^{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,9 +73,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <marker date="1440946055000" expanded="true" signature="221:580" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,13 +84,8 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
-                <marker date="1441027818000" expanded="true" signature="143:275" placeholder="..." />
-                <marker date="1441027818000" expanded="true" signature="307:951" placeholder="..." />
-                <marker date="1441027818000" expanded="true" signature="338:638" placeholder="{...}" />
-                <marker date="1441027818000" expanded="true" signature="478:602" placeholder="^RACSignal *(id input){...}" />
+                <element signature="e#135#171#0" expanded="true" />
                 <marker date="1441027818000" expanded="true" signature="688:948" placeholder="{...}" />
-                <marker date="1441027818000" expanded="true" signature="726:783" placeholder="@[...]" />
-                <marker date="1441027818000" expanded="true" signature="791:944" placeholder="^(NSString *username, NSString *password){...}" />
               </folding>
             </state>
           </provider>
@@ -146,12 +106,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <marker date="1440949961000" expanded="false" signature="140:203" placeholder="..." />
-                <marker date="1440949961000" expanded="true" signature="259:838" placeholder="^{...}" />
-                <marker date="1440949961000" expanded="true" signature="333:834" placeholder="^{...}" />
-                <marker date="1440949961000" expanded="true" signature="459:826" placeholder="^{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -531,12 +486,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1440949961000" expanded="false" signature="140:203" placeholder="..." />
-            <marker date="1440949961000" expanded="true" signature="259:838" placeholder="^{...}" />
-            <marker date="1440949961000" expanded="true" signature="333:834" placeholder="^{...}" />
-            <marker date="1440949961000" expanded="true" signature="459:826" placeholder="^{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -585,9 +535,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="345">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1441027818000" expanded="true" signature="207:296" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -611,9 +559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="555">
           <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <marker date="1440946055000" expanded="true" signature="221:580" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -622,13 +568,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="645">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <marker date="1441027818000" expanded="true" signature="143:275" placeholder="..." />
-            <marker date="1441027818000" expanded="true" signature="307:951" placeholder="..." />
-            <marker date="1441027818000" expanded="true" signature="338:638" placeholder="{...}" />
-            <marker date="1441027818000" expanded="true" signature="478:602" placeholder="^RACSignal *(id input){...}" />
+            <element signature="e#135#171#0" expanded="true" />
             <marker date="1441027818000" expanded="true" signature="688:948" placeholder="{...}" />
-            <marker date="1441027818000" expanded="true" signature="726:783" placeholder="@[...]" />
-            <marker date="1441027818000" expanded="true" signature="791:944" placeholder="^(NSString *username, NSString *password){...}" />
           </folding>
         </state>
       </provider>
@@ -666,9 +607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="345">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1441027818000" expanded="true" signature="207:296" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,9 +631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1440946055000" expanded="true" signature="221:580" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -739,9 +676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1440946055000" expanded="true" signature="221:580" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,9 +714,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1440946055000" expanded="true" signature="221:580" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -904,12 +837,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <marker date="1440949961000" expanded="false" signature="140:203" placeholder="..." />
-            <marker date="1440949961000" expanded="true" signature="259:838" placeholder="^{...}" />
-            <marker date="1440949961000" expanded="true" signature="333:834" placeholder="^{...}" />
-            <marker date="1440949961000" expanded="true" signature="459:826" placeholder="^{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,13 +846,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <marker date="1441027818000" expanded="true" signature="143:275" placeholder="..." />
-            <marker date="1441027818000" expanded="true" signature="307:951" placeholder="..." />
-            <marker date="1441027818000" expanded="true" signature="338:638" placeholder="{...}" />
-            <marker date="1441027818000" expanded="true" signature="478:602" placeholder="^RACSignal *(id input){...}" />
+            <element signature="e#135#171#0" expanded="true" />
             <marker date="1441027818000" expanded="true" signature="688:948" placeholder="{...}" />
-            <marker date="1441027818000" expanded="true" signature="726:783" placeholder="@[...]" />
-            <marker date="1441027818000" expanded="true" signature="791:944" placeholder="^(NSString *username, NSString *password){...}" />
           </folding>
         </state>
       </provider>
@@ -933,9 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1440946055000" expanded="true" signature="221:580" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -943,9 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1441027818000" expanded="true" signature="207:296" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -953,18 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3606789" vertical-offset="0" max-vertical-offset="750">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <marker date="1441028101000" expanded="false" signature="143:183" placeholder="..." />
-            <marker date="1441028101000" expanded="true" signature="246:1138" placeholder="^{...}" />
-            <marker date="1441028101000" expanded="true" signature="294:472" placeholder="^{...}" />
-            <marker date="1441028101000" expanded="true" signature="330:464" placeholder="^{...}" />
-            <marker date="1441028101000" expanded="true" signature="524:700" placeholder="^{...}" />
-            <marker date="1441028101000" expanded="true" signature="560:692" placeholder="^{...}" />
-            <marker date="1441028101000" expanded="true" signature="745:913" placeholder="^{...}" />
-            <marker date="1441028101000" expanded="true" signature="780:905" placeholder="^{...}" />
-            <marker date="1441028101000" expanded="true" signature="961:1134" placeholder="^{...}" />
-            <marker date="1441028101000" expanded="true" signature="997:1126" placeholder="^{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
