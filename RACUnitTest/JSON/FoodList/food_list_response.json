@@ -1,0 +1,57 @@
+[
+  {
+    "food_url": "http://p1.meituan.net/xianfu/1c09ea9e6cd3e3480086c98f8515929e39637.jpg",
+    "price": "3",
+    "sale_number": "772"
+  },
+  {
+    "food_url": "http://p0.meituan.net/xianfu/f890f8c080a275de493c0f725a41dca886099.jpg",
+    "price": "29",
+    "sale_number": "476"
+  },
+  {
+    "food_url": "http://p1.meituan.net/xianfu/7191cd227440a48ae9f45f6df8479d9643280.jpg",
+    "price": "22",
+    "sale_number": "373"
+  },
+  {
+    "food_url": "http://p0.meituan.net/xianfu/971e26c855ee506b5d64149c5f36a624110695.jpg",
+    "price": "2.0",
+    "sale_number": "299"
+  },
+  {
+    "food_url": "http://p1.meituan.net/xianfu/e07ec94d82782056248e2f9f13ee024b46217.jpg",
+    "price": "48.0",
+    "sale_number": "29"
+  },
+  {
+    "food_url": "http://p0.meituan.net/xianfu/ef0eeadffaad636c78d753d4676f68f230476.jpg",
+    "price": "5.0",
+    "sale_number": "31"
+  },
+  {
+    "food_url": "http://p0.meituan.net/xianfu/aeae91a15226183b32f672498e4a1f9c87828.jpg",
+    "price": "25.0",
+    "sale_number": "254"
+  },
+  {
+    "food_url": "http://p1.meituan.net/xianfu/26f11a9efe8a8d9477b8c8372d2a418840130.jpg",
+    "price": "29.0",
+    "sale_number": "224"
+  },
+  {
+    "food_url": "http://p0.meituan.net/xianfu/95c99d962ce09cd8c4cd718224a603a739074.jpg",
+    "price": "15.0",
+    "sale_number": "210"
+  },
+  {
+    "food_url": "http://p1.meituan.net/xianfu/0a7b93164b20fb7227ebdbd79a905c0742202.jpg",
+    "price": "29.0",
+    "sale_number": "201"
+  },
+  {
+    "food_url": "http://p1.meituan.net/xianfu/20dfd3008fd97b40505309075eefb27175413.jpg",
+    "price": "6.0",
+    "sale_number": "183"
+  }
+]

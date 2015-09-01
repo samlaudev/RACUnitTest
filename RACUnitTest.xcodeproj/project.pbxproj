@@ -25,6 +25,8 @@
 		8FDB502F1B93593C0075D40C /* LoginClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB502E1B93593C0075D40C /* LoginClientSpec.m */; };
 		8FDCA3751B94A317003BA720 /* MBProgressHUD+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDCA3741B94A317003BA720 /* MBProgressHUD+Helper.m */; };
 		C9C767C9FB8B09CFC5E5C286 /* DataValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761B770541799767740CD /* DataValidation.m */; };
+		C9C76836DD2FAA06C2A06AC3 /* food_list_response.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C76D414E045736B00AF143 /* food_list_response.json */; };
+		C9C76AC4C0E993C3A4F2FE7C /* food_list_conf.json in Resources */ = {isa = PBXBuildFile; fileRef = C9C767516B8F1EC8A4621C5E /* food_list_conf.json */; };
 		C9C76B0B6901FBBFFC107073 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C76585023CA264A1F92CD4 /* LoginView.m */; };
 		C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761AA3ABAAB32B24A6336 /* LoginClient.m */; };
 		C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769403E0FAAB4D8679122 /* LoginViewController.m */; };
@@ -80,8 +82,10 @@
 		C9C7647F95E9196C6A3BB96E /* DataValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataValidation.h; sourceTree = "<group>"; };
 		C9C764F2DF09A7B029657165 /* LoginClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginClient.h; sourceTree = "<group>"; };
 		C9C76585023CA264A1F92CD4 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		C9C767516B8F1EC8A4621C5E /* food_list_conf.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = food_list_conf.json; sourceTree = "<group>"; };
 		C9C768BA2E024DB54F57D382 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
 		C9C769403E0FAAB4D8679122 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C9C76D414E045736B00AF143 /* food_list_response.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = food_list_response.json; sourceTree = "<group>"; };
 		D55DB9E2C6FAD16444E59CE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E31320FB373391F2AAAA9086 /* Pods-RACUnitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACUnitTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +194,7 @@
 			children = (
 				8FDB50261B9353A20075D40C /* Login */,
 				8FDB50221B93537C0075D40C /* settings.json */,
+				C9C76A6279910CECDFF1D396 /* FoodList */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -266,6 +271,15 @@
 				C9C761B770541799767740CD /* DataValidation.m */,
 			);
 			path = Business;
+			sourceTree = "<group>";
+		};
+		C9C76A6279910CECDFF1D396 /* FoodList */ = {
+			isa = PBXGroup;
+			children = (
+				C9C767516B8F1EC8A4621C5E /* food_list_conf.json */,
+				C9C76D414E045736B00AF143 /* food_list_response.json */,
+			);
+			path = FoodList;
 			sourceTree = "<group>";
 		};
 		C9C76D410E1EF3A70675D01E /* Login */ = {
@@ -380,6 +394,8 @@
 				8FDB502A1B9353A20075D40C /* login_response.json in Resources */,
 				8F22FC7C1B8A9C1100B5D42C /* stylesheet.cas in Resources */,
 				8FDB50291B9353A20075D40C /* login_conf.json in Resources */,
+				C9C76AC4C0E993C3A4F2FE7C /* food_list_conf.json in Resources */,
+				C9C76836DD2FAA06C2A06AC3 /* food_list_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

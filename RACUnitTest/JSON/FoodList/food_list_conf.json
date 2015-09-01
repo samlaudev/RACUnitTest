@@ -1,0 +1,13 @@
+[
+  {
+    "request" :
+    {
+      "uri" : "/v1/foodlist",
+      "method" : "get"
+    },
+    "response" :
+    {
+      "file" : "./FoodList/food_list_response.json"
+    }
+  }
+]

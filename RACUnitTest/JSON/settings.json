@@ -1,5 +1,9 @@
 [
   {
     "include" : "./Login/login_conf.json"
+  },
+  {
+    "include" : "./FoodList/food_list_conf.json"
   }
+
 ]
