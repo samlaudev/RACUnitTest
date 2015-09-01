@@ -44,5 +44,7 @@
 `moco start -p 12306 -g settings.json`
 
 ###使用Paw验证是否配置成功
-![Send request to Local Server.png](http://upload-images.jianshu.io/upload_images/166109-f487c378fdd9da0c.png)
+![Send request to Local Server.png](https://raw.githubusercontent.com/samlaudev/RACUnitTest/master/ScreenShots/paw验证是否访问成功.png)
+
+###配置IP
 
