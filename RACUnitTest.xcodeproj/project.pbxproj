@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10C30DAC6241E5C5BDC9250A /* libPods-RACUnitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EE6E61BB43198033C0941E /* libPods-RACUnitTest.a */; };
-		6E9D7135B04ADCC68E656FD3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5BE772162E64C2E334E1A3 /* libPods.a */; };
+		1AFEED241B9540A400CED7F2 /* FoodListClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEED231B9540A400CED7F2 /* FoodListClientSpec.m */; };
+		1AFEED271B9545E900CED7F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFEED261B9545E900CED7F2 /* libPods.a */; };
+		1AFEED291B9545F700CED7F2 /* libPods-RACUnitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFEED281B9545F700CED7F2 /* libPods-RACUnitTestTests.a */; };
+		1AFEED2B1B954B2D00CED7F2 /* FoodModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEED2A1B954B2D00CED7F2 /* FoodModelSpec.m */; };
 		8F22FC7C1B8A9C1100B5D42C /* stylesheet.cas in Resources */ = {isa = PBXBuildFile; fileRef = 8F22FC7B1B8A9C1100B5D42C /* stylesheet.cas */; };
 		8F79A1851B8A97F800DC7C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A1841B8A97F800DC7C97 /* main.m */; };
 		8F79A1881B8A97F800DC7C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A1871B8A97F800DC7C97 /* AppDelegate.m */; };
@@ -31,6 +33,8 @@
 		C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C761AA3ABAAB32B24A6336 /* LoginClient.m */; };
 		C9C76BFD1AF30A69DDF433BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C769403E0FAAB4D8679122 /* LoginViewController.m */; };
 		C9C76EE21CBCD14DAA2E6FE2 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C7618C559D212C8D13233F /* LoginViewModel.m */; };
+		DC02C08BD01B8451569CDBE2 /* FoodListClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02C49B36D3EE3F7590D6D9 /* FoodListClient.m */; };
+		DC02C4E29A7703112D916BA6 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */; };
 		E3D33710712C06DA1B06F08A /* libPods-RACUnitTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F960278C606744E7420338 /* libPods-RACUnitTestTests.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +51,10 @@
 /* Begin PBXFileReference section */
 		096F528704C4748450F8A324 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		13F960278C606744E7420338 /* libPods-RACUnitTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACUnitTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFEED231B9540A400CED7F2 /* FoodListClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListClientSpec.m; sourceTree = "<group>"; };
+		1AFEED261B9545E900CED7F2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		1AFEED281B9545F700CED7F2 /* libPods-RACUnitTestTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-RACUnitTestTests.a"; path = "Pods/../build/Debug-iphoneos/libPods-RACUnitTestTests.a"; sourceTree = "<group>"; };
+		1AFEED2A1B954B2D00CED7F2 /* FoodModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModelSpec.m; sourceTree = "<group>"; };
 		21EE6E61BB43198033C0941E /* libPods-RACUnitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACUnitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		612762B2F13423233ED4A612 /* Pods-RACUnitTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACUnitTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		8F22FC7B1B8A9C1100B5D42C /* stylesheet.cas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stylesheet.cas; sourceTree = "<group>"; };
@@ -87,6 +95,10 @@
 		C9C769403E0FAAB4D8679122 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		C9C76D414E045736B00AF143 /* food_list_response.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = food_list_response.json; sourceTree = "<group>"; };
 		D55DB9E2C6FAD16444E59CE7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DC02C0D5E0BE6DC281EB03AD /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		DC02C2D0D4FAD3585F7363B3 /* FoodListClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListClient.h; sourceTree = "<group>"; };
+		DC02C49B36D3EE3F7590D6D9 /* FoodListClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListClient.m; sourceTree = "<group>"; };
+		DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
 		E31320FB373391F2AAAA9086 /* Pods-RACUnitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACUnitTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACUnitTestTests/Pods-RACUnitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,8 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E9D7135B04ADCC68E656FD3 /* libPods.a in Frameworks */,
-				10C30DAC6241E5C5BDC9250A /* libPods-RACUnitTest.a in Frameworks */,
+				1AFEED291B9545F700CED7F2 /* libPods-RACUnitTestTests.a in Frameworks */,
+				1AFEED271B9545E900CED7F2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +159,7 @@
 				C9C76F2B4CED53CF55495154 /* Network */,
 				8F79A1821B8A97F800DC7C97 /* Supporting Files */,
 				C9C761F425AF59637884C7E2 /* Helper */,
+				DC02CA819C10B7A26C587C8E /* FoodList */,
 			);
 			path = RACUnitTest;
 			sourceTree = "<group>";
@@ -166,6 +179,7 @@
 				8F79A19C1B8A97F800DC7C97 /* Supporting Files */,
 				C9C76300EA711CD41C4B6ABF /* Login */,
 				C9C76707971780DC2055A039 /* Business */,
+				DC02CD0019888FB074273D6D /* FoodList */,
 			);
 			path = RACUnitTestTests;
 			sourceTree = "<group>";
@@ -211,6 +225,8 @@
 		ACEF69B6167BA949C72BDAB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AFEED281B9545F700CED7F2 /* libPods-RACUnitTestTests.a */,
+				1AFEED261B9545E900CED7F2 /* libPods.a */,
 				AD5BE772162E64C2E334E1A3 /* libPods.a */,
 				21EE6E61BB43198033C0941E /* libPods-RACUnitTest.a */,
 				13F960278C606744E7420338 /* libPods-RACUnitTestTests.a */,
@@ -300,8 +316,28 @@
 			children = (
 				C9C764F2DF09A7B029657165 /* LoginClient.h */,
 				C9C761AA3ABAAB32B24A6336 /* LoginClient.m */,
+				DC02C2D0D4FAD3585F7363B3 /* FoodListClient.h */,
+				DC02C49B36D3EE3F7590D6D9 /* FoodListClient.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		DC02CA819C10B7A26C587C8E /* FoodList */ = {
+			isa = PBXGroup;
+			children = (
+				DC02C0D5E0BE6DC281EB03AD /* FoodModel.h */,
+				DC02CECCD4BA0E7FFDB3241F /* FoodModel.m */,
+			);
+			path = FoodList;
+			sourceTree = "<group>";
+		};
+		DC02CD0019888FB074273D6D /* FoodList */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEED231B9540A400CED7F2 /* FoodListClientSpec.m */,
+				1AFEED2A1B954B2D00CED7F2 /* FoodModelSpec.m */,
+			);
+			path = FoodList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +522,8 @@
 				8FDCA3751B94A317003BA720 /* MBProgressHUD+Helper.m in Sources */,
 				C9C76B44AF86795ABE37C998 /* LoginClient.m in Sources */,
 				8FDB502D1B9357B20075D40C /* URLHelper.m in Sources */,
+				DC02C08BD01B8451569CDBE2 /* FoodListClient.m in Sources */,
+				DC02C4E29A7703112D916BA6 /* FoodModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +531,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFEED2B1B954B2D00CED7F2 /* FoodModelSpec.m in Sources */,
 				8F9AD52B1B8BF3AD00D2D784 /* LoginViewControllerSpec.m in Sources */,
+				1AFEED241B9540A400CED7F2 /* FoodListClientSpec.m in Sources */,
 				8FDB501D1B934ACB0075D40C /* LoginViewModelSpec.m in Sources */,
 				8F9AD52D1B8E93E900D2D784 /* DataValidationSpec.m in Sources */,
 				8FDB502F1B93593C0075D40C /* LoginClientSpec.m in Sources */,
@@ -610,6 +650,10 @@
 				INFOPLIST_FILE = RACUnitTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
@@ -623,6 +667,10 @@
 				INFOPLIST_FILE = RACUnitTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
